@@ -7,6 +7,8 @@ const token = "8348485669:AAEz-HH91LHcFNfxzP9h0kZLD0VzV9V38_8";
 const bot = new TelegramBot(token, { polling: true });
 
 
+
+
 bot.on("message", (msg) => {
   const text = msg.text;
   const chatId = msg.chat.id;
