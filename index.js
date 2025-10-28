@@ -15,6 +15,7 @@ bot.on("message", (msg) => {
   console.log(`Yangi xabar: ${text} | Foydalanuvchi ID: ${chatId}`);
 
   bot.sendMessage(chatId, `--> ${text}`);
+  bot.sendDice(chatId);
 });
 
 console.log("✅ Bot ishga tushdi...");
