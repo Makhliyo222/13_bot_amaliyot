@@ -1,4 +1,5 @@
 import TelegramBot from "node-telegram-bot-api";
+token
 
 
 const token = "8348485669:AAEz-HH91LHcFNfxzP9h0kZLD0VzV9V38_8"; 
