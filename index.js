@@ -16,4 +16,5 @@ bot.on("message", (msg) => {
   bot.sendMessage(chatId, `--> ${text}`);
 });
 
+
 console.log("✅ Bot ishga tushdi...");
