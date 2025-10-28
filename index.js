@@ -17,4 +17,7 @@ bot.on("message", (msg) => {
 });
 
 
+
+
+
 console.log("✅ Bot ishga tushdi...");
