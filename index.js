@@ -17,12 +17,19 @@ bot.on("message", function (msg) {
           [{ text: "boshlash 🧨"}],
           [{ text: "Menu 🍔"}, {text: "til 🌎"}],
         ],
+        resize_keyboard: true,
       },
     })
   } else if (text == "/help") {
     bot.sendMessage(chatId, `Sizga qanday yordam kerak, ${firstName}?` );
   } else if (text == "/sozlamalar") {
     bot.sendMessage(chatId, ` Bu sozlamalar, ${firstName}`);
+  } else if (text == "boshlash 🧨") {
+    bot.sendMessage(chatId, `Boshlanyapti...`);
+  } else if (text == "Menu 🍔") {
+    bot.sendMessage(chatId, `Menyuuuu...`);
+  } else if (text == "til 🌎") {
+    bot.sendMessage(chatId, `Tilni tanlang...`);
   }
 });
 
